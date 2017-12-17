@@ -39,7 +39,7 @@ const Panel = ({ prev, next, ...props }) => (
   <div
     className={cx(panel, {
       [panelPrev]: prev,
-      [panelNext]: next,
+      [panelNext]: next
     })}
     {...props}
   />
@@ -52,10 +52,10 @@ const Panel = ({ prev, next, ...props }) => (
 // Creates a section element
 const Content = styled('section')`
   background: #333;
-`
+`;
 
 // Creates an aside element with the same styles as Content
-const Sidebar = Content.withComponent('aside')
+const Sidebar = Content.withComponent('aside');
 ```
 
 ### Shorthand style
@@ -68,9 +68,9 @@ import styled from 'emotion-vdo';
 const H3 = styled.h3`
   font-size: 24px;
   color: red;
-`
-function Greeting ({ name }) {
-  return <H3>Hello {name}</H3>
+`;
+function Greeting({ name }) {
+  return <H3>Hello {name}</H3>;
 }
 ```
 
