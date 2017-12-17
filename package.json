@@ -1,0 +1,62 @@
+{
+  "name": "emotion-vdo",
+  "version": "0.1.0",
+  "description": "Styled components for VDO",
+  "author": {
+    "name": "Artem Sapegin",
+    "url": "http://sapegin.me"
+  },
+  "homepage": "https://github.com/tamiadev/emotion-vdo",
+  "repository": "tamiadev/emotion-vdo",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "main": "index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "lint": "eslint . --cache --fix",
+    "pretest": "npm run lint",
+    "precommit": "lint-staged",
+    "test:jest": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test": "npm run test:jest"
+  },
+  "keywords": [
+    "emotion",
+    "vdo",
+    "styled",
+    "components"
+  ],
+  "dependencies": {
+    "emotion-utils": "^8.0.12",
+    "vdo": "^4.2.0"
+  },
+  "peerDependencies": {
+    "emotion": "^8"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^21.2.0",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "emotion": "^8.0.12",
+    "eslint": "^4.13.1",
+    "eslint-config-tamia": "^4.2.3",
+    "eslint-plugin-prettier": "^2.4.0",
+    "eslint-plugin-react": "^7.5.1",
+    "husky": "^0.14.3",
+    "jest": "^21.2.1",
+    "lint-staged": "^6.0.0",
+    "prettier": "^1.9.2"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  }
+}

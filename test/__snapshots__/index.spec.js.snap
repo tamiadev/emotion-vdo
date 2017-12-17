@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`omit non-HTML props 1`] = `"<div id=\\"pizza\\" className=\\"css-17pzvdr\\"></div>"`;
+
+exports[`render a component with a class name 1`] = `"<div id=\\"pizza\\" className=\\"css-17pzvdr\\"></div>"`;
+
+exports[`render a component with children 1`] = `"<div className=\\"css-17pzvdr\\"><h1>Hello</h1></div>"`;
+
+exports[`withComponent changes component 1`] = `"<span className=\\"css-17pzvdr\\"></span>"`;

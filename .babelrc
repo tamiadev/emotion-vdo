@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    "syntax-jsx",
+    [
+      "transform-react-jsx",
+      {
+        "pragma": "vdo",
+        "useBuiltIns": true
+      }
+    ]
+  ]
+}
