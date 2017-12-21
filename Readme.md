@@ -18,7 +18,7 @@ Works well with [tamia-theme](https://github.com/tamiadev/tamia-theme).
 import styled, { css, cx } from 'emotion-vdo';
 import theme from 'tamia-theme';
 
-const Container = styled.div`
+const Container = styled('div')`
   display: flex;
   flex-wrap: wrap;
   margin-bottom: ${theme.space.xl};
