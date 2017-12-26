@@ -1,6 +1,6 @@
 # emotion-vdo
 
-[emotion-react](https://github.com/emotion-js/emotion/blob/master/docs/styled.md) adapted for [VDO](https://github.com/DylanPiercey/vdo/). `styled` accepts styles as a template literal, object, or function that returns an object.
+[react-emotion](https://github.com/emotion-js/emotion/blob/master/docs/styled.md) adapted for [VDO](https://github.com/DylanPiercey/vdo/). `styled` accepts styles as a template literal, object, or function that returns an object.
 
 ## Installation
 
